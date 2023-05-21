@@ -7,7 +7,7 @@ Long-lived branches:
 * `develop`
   - runs development environments
 
-![Branching strategy](/assets/branching.png)
+![Branching strategy](assets/branching.png)
 
 Short-lived branches (denoted as feature branches or `feat/*`):
 
