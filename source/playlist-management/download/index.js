@@ -1,5 +1,13 @@
 import downloadPlaylist from "./downloadPlaylist.js";
 
+/**
+ * Downloads a Spotify playlist on the Node server
+ * and serves a .zip file as an attachment response
+ *
+ * @param {*} request
+ * @param {*} response
+ * @param {*} next
+ */
 const download = async (request, response, next) => {
   try {
     const { body } = request;

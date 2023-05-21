@@ -21,6 +21,7 @@
     "nodemon": "^2.0.22"
   },
   "devDependencies": {
+    "clean-jsdoc-theme": "^4.2.7",
     "jsdoc": "^4.0.2"
   }
 }

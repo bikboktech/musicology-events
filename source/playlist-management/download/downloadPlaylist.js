@@ -12,6 +12,13 @@ import { SPOTIFY_CONFIG, DEEZER_SETTINGS } from "../../common/data/config.js";
 
 const BITRATE = 9;
 
+/**
+ * Converts a Spotify playlist into a Deezer playlist
+ * and downloads the playlist using deemix
+ * @param {string} playlistLink Spotify playlist link (e.g. https://open.spotify.com/playlist/6307XqC1bD3oKK9pIp2QWs?si=98afdfccfeed40ff)
+ * @returns object pointing to the .zip file with the downloaded playlist content
+ */
+
 const downloadPlaylist = async (playlistLink) => {
   const spotify = new deemix.plugins.spotify(__dirname + "/../../../");
 
