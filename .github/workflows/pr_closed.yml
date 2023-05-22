@@ -9,6 +9,7 @@ jobs:
   changelog:
     name: changelog
     runs-on: ubuntu-latest
+    environment: ${{ github.event.pull_request.base.ref }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
