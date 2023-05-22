@@ -1,3 +1,9 @@
+/** Express route definitions providing playlist related functions
+ * @module module:playlist_management/download
+ * @requires express
+ * @requires module:playlist_management/download/downloadPlaylist
+*/
+
 import downloadPlaylist from "./downloadPlaylist.js";
 
 /**
