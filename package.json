@@ -22,6 +22,7 @@
     "nodemon": "^2.0.22"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^17.6.3",
     "clean-jsdoc-theme": "^4.2.7",
     "commitlint": "^17.6.3",
     "jsdoc": "^4.0.2"
