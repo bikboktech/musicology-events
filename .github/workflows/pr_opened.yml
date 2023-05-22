@@ -10,8 +10,10 @@ jobs:
     name: commit-lint
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout Feature branch
         uses: actions/checkout@v3
+        with:
+            fetch-depth: 0
       
       - name: Commit Lint
         uses: wagoid/commitlint-github-action@v5
