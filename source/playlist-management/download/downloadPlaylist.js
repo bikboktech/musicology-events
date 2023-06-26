@@ -74,7 +74,7 @@ const downloadPlaylist = async (playlistLink) => {
 
   const archive = archiver("zip", { zlib: { level: 9 } });
 
-  const dir = path.join(__dirname, "/../../../downloads");
+  const dir = path.join(__dirname, "/../../common/data/downloads");
 
   archive.directory(dir, false);
 
